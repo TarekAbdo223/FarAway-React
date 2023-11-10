@@ -8,6 +8,7 @@ const initialItems = [
 
 function App() {
   //lifting the state up
+  //a
   const [items, setItems] = useState([]);
 
   function handleAddItems(item) {
